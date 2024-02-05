@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="styles/overrides.css" />
     <link rel="stylesheet" href="styles/palettes.css" />
+    <link rel="stylesheet" href="styles/utilities.css" />
     <link rel="stylesheet" href="styles/classes.css" />
 
     <script type="module" src="main.js"></script>
@@ -18,11 +19,16 @@
     </header>
 
     <main class="grow">
-      <!-- ??? -->
+      <div class="flex justify-center todo-list-inputs">
+        <input type="text" id="todo-text-input" />
+        <button id="todo-add-button">Add</button>
+      </div>
+
+      <ul id="todo-display"></ul>
     </main>
 
     <footer class="bg-primary text-secondary">
-      <p class="text-center">Your name, and maybe some links 😉</p>
+      <p class="text-center">Todo List 😉</p>
     </footer>
   </body>
 </html>

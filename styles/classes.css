@@ -1,20 +1,19 @@
 /* Any of your own custom CSS classes are in here */
-.flex {
-  display: flex;
+.todo-list-inputs {
+  padding: 1rem;
 }
 
-.flex-col {
-  flex-direction: column;
+.todo-item {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(199, 199, 199);
+  padding: 0px 2rem;
 }
 
-.grow {
-  flex-grow: 1;
+.todo-additional-info {
+  color: var(--color-secondary);
 }
 
-.text-center {
-  text-align: center;
-}
-
-.min-h-screen {
-  min-height: 100vh;
+.todo-created-at {
+  color: var(--color-primary);
 }

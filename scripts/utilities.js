@@ -7,3 +7,9 @@
  * random IDs?
  * type generateId = () => number
  */
+
+export function createTodoId() {
+  let timestamp = new Date().getTime();
+  let randomNumber = Math.floor(Math.random() * 10000);
+  return timestamp + randomNumber;
+}
